@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- Android 11+: permite ver y conectarse al servicio de impresión del fabricante. -->
+  <queries>
+    <package android:name="recieptservice.com.recieptservice" />
+  </queries>
+</manifest>

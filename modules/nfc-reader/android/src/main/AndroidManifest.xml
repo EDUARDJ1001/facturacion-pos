@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <uses-permission android:name="android.permission.NFC" />
+  <!-- La app sigue instalándose en equipos sin NFC (ahí solo no ofrece el cobro simulado). -->
+  <uses-feature android:name="android.hardware.nfc" android:required="false" />
+</manifest>
